@@ -1,0 +1,346 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+<title>Bayes nerual network special session</title>
+<meta name="description" content="">
+<meta name="author" content="WebThemez">
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<!-- Font Awesome -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="mainNav">
+          <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+          <li><a href="#about" class="scroll-link">About</a></li>
+          <li><a href="#call" class="scroll-link">Call for papers</a></li>
+          <li><a href="#submission" class="scroll-link">Submission</a></li>
+          <li><a href="#organisers" class="scroll-link">Organisers</a></li>
+          <li><a href="#dates" class="scroll-link">Dates</a></li>
+	  <li><a href="#references" class="scroll-link">References</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse--> 
+    </nav>
+    <!--/.navbar--> 
+  </div>
+  <!--/.container--> 
+</header>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container"> <img src="images/banner-bg.avif" alt="banner" />
+    <div class="container banner-content"> 
+            <div class="row">
+                <header class="centered">
+                    <h1>The 4th Special Session on Bayesian Neural Networks: The Interplay between Bayes Theorem and Neural Networks</h1>
+                    <p>IJCNN Special Session, Queensland, Australia, 18-23 June 2023</p>
+                </header>
+            </div> 
+  </div>
+</section>
+<section id="introText">
+  <div class="container">
+    <div>
+      <h1>WELCOME!</h1>
+      <h3 style="color:white;">“Intelligence relies on understanding and acting in an imperfectly sensed and uncertain world” --- Prof. Zoubin Ghahramani.</span></h3>
+    </div>
+  </div>
+</section>
+	
+<!--About-->
+<section id="about">
+  <br/>	
+  <div class="container">
+    <div class="row"> 
+      <!-- item -->
+      <div class="col-md-4 tileBox"> <img src="images/photo-1.jpeg" alt="me"/> </div>
+      <div class="col-md-8 tileBox">
+        <div class="txtHead">
+          <h2>About Bayesian Neural Networks </h2>
+        </div>
+        <p>Prof. Zoubin Ghahramani said in his Nature paper [1], “intelligence relies on understanding and acting in an imperfectly sensed and uncertain world”. Such uncertainty handling ability is even more critical for some safety-critical tasks (e.g., autonomous driving and medical diagnosis). Unfortunately, existing neural networks are weak on that. The topic of this session - Bayesian neural networks - is to combine the beauties of two fields: neural networks which is powerful on complex function approximation and hidden representation learning, and Bayesian which has solid theoretical foundation on uncertainty modeling. It is a newly emerging topic for neural networks. Compared to vanilla neural networks, Bayesian neural networks has distinctive advantages: 1) representing, manipulating, and mitigating uncertainty based on the solid theoretical foundations of probability; 2) encoding the prior knowledge about a problem; and 3) good interpretability thanks to its clear and meaningful probabilistic structure. </p>
+
+	<p>This area started roughly in 1990s when Radford Neal [2], David MacKay [3], and Dayan et al. [4] firstly use Bayesian techniques in neural networks. However, there is no much works following them. As the quick development of both neural networks and Bayesian learning over the past few years, this area has received great interest from the community again, and then many seminal works emerged to lay the theoretical foundation and achieve state-of-the-art performances, such as Dropout as a Bayesian approximation [5], the connection between Gaussian Process with neural network [6], Bayesian convolutional neural networks [7], etc. In addition, due to the need of quantifying uncertainty, this area has also attracted interest from wider communities including computer vision, natural language processing, and medical application [8]. To keep and enhance such great success, this special session will study the new theories, models, inference algorithms, and applications of this area, and will be a platform to host the recent flourish of ideas using Bayesian approaches in neural networks and using neural networks in Bayesian modelling.</p>
+      </div>
+      <!-- end: --> 
+    </div>
+  </div>
+</section>
+<!--Quote-->
+<section id="quote" class="bg-parlex">
+  <div class="parlex-back">
+    <div class="container">
+     <div class="row">
+	<div class="col-md-12">  </div>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+
+<!--Call for paper-->
+<section id="call" class="secPad white">
+  <div class="container">
+    <div class="heading "> 
+      <!-- Heading -->
+      <h2>CALL FOR PAPERS</h2>
+      <p>All aspects of using Bayesian approaches in neural networks and using neural networks in Bayesian modeling are welcomed, including but not limited to: </p>
+    </div>
+    <div cloass="container">
+	<ul style="PADDING-LEFT: 30px">
+  		<li>Theoretical connections between stochastic processes and neural networks;</li>
+  		<li>Various prior designs for different types of neural networks;</li>
+  		<li>Fusion of probabilistic graphical models with neural networks (such as: neural topic models, neural stochastic processes, HMM with neural network likelihoods);</li>
+		<li>(Conditional) Variational autoencoders;</li>
+  		<li>Diffusion models;</li>
+		<li>Score-based generative models;</li>
+  		<li>Bayesian deep learning (such as deep kernel learning)</li>
+		<li>Variational Bayesian neural networks;</li>
+  		<li>Approximate inference for Bayesian neural networks (such as variational Bayes, expectation propagation, etc.);</li>
+		<li>Stochastic gradient Markov chain Monte Carlo (MCMC);</li>
+  		<li>Scalable inference in Bayesian neural networks for big data;</li>
+		<li>Bayesian neural networks for classification and regression with uncertainty estimation;</li>
+  		<li>Bayesian neural networks and uncertainty in computer vision (object detection, semantic segmentation and scene understanding, motion prediction, uncertainty estimation, etc); </li>
+		<li>Probabilistic transfer learning;</li>
+  		<li>Probabilistic reinforcement learning;</li>
+		<li>Causal inference;</li>
+  		<li>Bayesian temporal and spatial data mining;</li>
+		<li>Bayesian text and web mining;</li>
+  		<li>New baselines for uncertainty estimation.</li>
+	</ul>   
+    </div>
+  </div>
+</section>
+
+<!--Quote-->
+<section id="quote" class="bg-parlex">
+  <div class="parlex-back">
+    <div class="container">
+     <div class="row">
+	<div class="col-md-12">     </div>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+	
+<!--submission-->
+<section id="submission" class="secPad">
+<div class="container">
+<div class="heading"> 
+  <!-- Heading -->
+  <h2>Submission</h2>
+  <br/>
+  <h4>Guidelines for Paper Submission</h4>
+  <p>All papers should be prepared according to IJCNN 2023 submission policy and should be submitted using the conference website (<a href="https://2023.ijcnn.org/authors/paper-submission">https://2023.ijcnn.org/authors/paper-submission</a>) .</p>
+  <p>IJCNN 2023 adopts EDAS as submission system, to submit your paper, please go to the following link:</p>
+	<ul style="PADDING-LEFT: 30px">
+  		<li><a href="https://edas.info/N30081">https://edas.info/N30081</a></li>
+  		<li><a href="https://edas.info/newPaper.php?c=30081&track=116070">https://edas.info/newPaper.php?c=30081&track=116070</a></li>
+	</ul> 
+   <p style="color:red;">Please do not forget to select the special session title under the list of research topics in the submission system.</p>
+   <p>If you encounter any problems with the submission of your papers, please contact the conference publication chair. </p>	
+</div>
+		
+</section>
+
+<!--Quote-->
+<section id="quote" class="bg-parlex">
+  <div class="parlex-back">
+    <div class="container">
+     <div class="row">
+	<div class="col-md-12">      </div>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+	
+<!--Organisers-->
+<section id="organisers" class="page-section section appear clearfix secPad">
+  <div class="container">
+    <div class="heading"> 
+      <!-- Heading -->
+      <h2>Organisers</h2>
+      <p>If you have any questions or comments about this session, please let us know.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="portfolio-items isotopeWrapper clearfix" id="3">
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img1.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img1.jpg" class="fancybox">
+                    <h5>Dr Maoying Qiao</h5>
+		    <br/>
+		    <p>Senior Lecturer</p>
+		    <p>School of Computer Science</p>
+		    <p>University of Technology Sydney, Australia</p>
+		    <p>Maoying.Qiao@uts.edu.au</p>
+                    </a> 
+		  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem photography">
+              <div class="portfolio-item"> <img src="images/portfolio/img2.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img2.jpg" class="fancybox">
+                    <h5>Dr Junyu Xuan</h5>
+			  <br/>
+		    <p>Senior Lecturer</p>
+		    <p>Australia AI Institute</p>
+		    <p>University of Technology Sydney, Australia</p>
+		    <p>Junyu.Xuan@uts.edu.au</p>
+                    </a> 
+		  </div>
+                </div>
+              </div>
+            </article>
+            
+            <article class="col-sm-4 isotopeItem print">
+              <div class="portfolio-item"> <img src="images/portfolio/img4.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img4.jpg" class="fancybox">
+                    <h5>Dr Yuguang Wang</h5>
+			  <br/>
+		    <p>Associate Professor</p>
+		    <p>Institute of Natural Sciences</p>
+		    <p>Shanghai Jiao Tong University, China</p>
+		    <p>yuguang.wang@sjtu.edu.cn</p>
+                    </a> 
+		  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem photography">
+              <div class="portfolio-item"> <img src="images/portfolio/img5.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img5.jpg" class="fancybox">
+                    <h5>Dr Xuhui Fan</h5>
+			  <br/>
+		    <p>Lecturer</p>
+		    <p>School of Information and Physical Sciences</p>
+		    <p>University of Newcastle, Australia</p>
+		    <p>xuhui.fan@newcastle.edu.au</p>
+                    </a> 
+		  </div>
+                </div>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Quote-->
+<section id="quote" class="bg-parlex">
+  <div class="parlex-back">
+    <div class="container">
+     <div class="row">
+	<div class="col-md-12">     </div>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+	
+<!--Dates-->
+<section id="dates" class="secPad">
+<div class="container">
+<div class="heading"> 
+  <!-- Heading -->
+  <h2>IMPORTANT DATES</h2>
+  <br/>
+	<ul style="PADDING-LEFT: 30px">
+  		<li style="color:red;">07 Feb 2023 (new!)  &nbsp&nbsp&nbsp&nbsp ------     &nbsp&nbsp &nbsp&nbsp              Paper Submission Deadline</li>
+  		<li>31 Mar 2023  &nbsp&nbsp&nbsp&nbsp  ------    &nbsp&nbsp &nbsp&nbsp               Paper Decision Notification</li>
+	</ul> 
+   
+</div>
+		
+</section>
+
+<!--Quote-->
+<section id="quote" class="bg-parlex">
+  <div class="parlex-back">
+    <div class="container">
+     <div class="row">
+	<div class="col-md-12">      
+	</div>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+	
+<!--References-->
+<section id="references" class="secPad white">
+  <div class="container">
+    <div class="heading "> 
+      <!-- Heading -->
+      <h2>References</h2>
+    </div>
+    <div cloass="container">
+	<ol style="PADDING-LEFT: 30px">
+  		<li>Zoubin Ghahramani, Probabilistic machine learning and artificial intelligence, Nature, 521(7553), 452, 2015.</li>
+  		<li>Radford Neal, Bayesian learning for neural networks, PhD Thesis, 1995.</li>
+  		<li>David MacKay, A practical Bayesian framework for backpropagation networks. Neural Computation, 4(3), 448-472, 1992.</li>
+		<li>Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel. The Helmholtz machine, Neural Computation 7(5), 889-904, 1995.</li>
+  		<li>Yarin Gal and Zoubin Ghahramani, Dropout as a Bayesian approximation: Representing model uncertainty in deep learning, ICML 2016.</li>
+		<li>Jaehoon Lee, et al. Deep neural networks as Gaussian processes. arXiv preprint arXiv:1711.00165, 2017.</li>
+  		<li>Kumar Shridhar, Felix Laumann, and Marcus Liwicki, A Comprehensive guide to Bayesian convolutional neural network with variational inference, arXiv preprint, arXiv: 1901.02731, 2019.</li>
+		<li>Moloud Abdar, Farhad Pourpanah, Sadiq Hussain, Dana Rezazadegan, Li Liu, Mohammad Ghavamzadeh, Paul Fieguth, Xiaochun Cao, Abbas Khosravi, U Rajendra Acharya, Vladimir Makarenkov, and Saeid Nahavandi, A review of Uncertainty Quantification in Deep Learning: Techniques, Applications and Challenges, arXiv preprint, arXiv: 2011.06225, 2020.</li>
+	</ol>   
+    </div>
+  </div>
+</section>	
+
+
+
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
+<script src="js/modernizr-latest.js"></script> 
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script> 
+<script src="js/jquery.cslider.js" type="text/javascript"></script> 
+<script src="js/jquery.diagram.js"></script> 
+<script src="js/custom.js" type="text/javascript"></script> 
+<script src="js/owl-carousel/owl.carousel.js"></script>
+</body>
+</html>
